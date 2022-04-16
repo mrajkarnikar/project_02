@@ -29,4 +29,4 @@ From here, the predictions have been made. To be able to test the accuracy, we c
 
 ![graph6](https://user-images.githubusercontent.com/94638002/163526395-1ca3b620-c210-46cf-87a4-f00e25cc49a0.png)
 
-From here the predictions are complete. In order to keep it up-to-date, we'd need to constantly update the csv file to '-1' each day adn reload the code.
+From here the predictions are complete. In order to keep it up-to-date, we'd need to constantly update the csv file to '-1' each day and reload the code.
