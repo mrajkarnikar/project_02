@@ -9,7 +9,7 @@ For project two, we wanted to see if we could predict future closing prices for 
 - LSTM (Long Short Term Memory)
 - GRU(Gated Recurrent Units) 
 
-We also used Hyper Parameter Tuning to come up with best parameter for our model training. Amoung the available hyper parameter tuning methods available we implemented RandomSearch and hyperband. 
+We also used Hyper Parameter Tuning to come up with best parameter for our model training. Among the available hyper parameter tuning methods available, we implemented RandomSearch and Hyperband. 
 
 ## Methodology
 
@@ -36,11 +36,7 @@ Then we make the predictions. This is done by 'model.predict(X_test)', then prin
 ![graph5](https://user-images.githubusercontent.com/94638002/163524980-c731026e-7d2b-4ac4-aa9a-08a0505fa30e.png)
 
 
-We then evaluate the model to assess its performance. This is done by using 'model.evaluate'. This will show us the test loss and test accuracy. 
-
-![graph4](https://user-images.githubusercontent.com/94638002/163524485-34b0b982-3e41-466c-804a-005c7ade488e.png)
-
-Close to last, to be able to test the accuracy, we  import metrics from sklearn to print and test accuracy percentages.
+Close to last, to be able to evaluate model using different metrics.  We  import metrics class from sklearn to print and test these evaluation metrics .
 
 ![graph6](https://user-images.githubusercontent.com/94638002/163526395-1ca3b620-c210-46cf-87a4-f00e25cc49a0.png)
 
