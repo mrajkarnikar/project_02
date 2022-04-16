@@ -3,7 +3,7 @@
 
 For project two, we wanted to see if we could predict future closing prices for Ethereum. We selected Linear Regression, Random Forest, Gradient Boosting, XGBoost, Hyper Parameter Tuning, LSTM (Long Short Term Memory), and GRU(Gated Recurrent Units) to determine which algorithm has the best accuracy for outputting the best prediction. 
 
-The first thing we looked into was finding our data. We got our data from yfinance //////////URL. From here, we can clean the data to make it appropriate for predictions. 
+The first thing we looked into was finding our data. We got our data from yfinance. From here, we can clean the data to make it appropriate for predictions. 
 
 ![downloading data and cleaning](https://user-images.githubusercontent.com/94638002/163520388-bb66f14d-5453-4696-a4a0-4cc06cdc263d.png)
 
